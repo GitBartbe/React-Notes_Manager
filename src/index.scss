@@ -1,4 +1,5 @@
 @import './scss/variables';
+@import './scss/brakepoints';
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
 
@@ -16,11 +17,6 @@ html {
   color: whitesmoke;
 }
 
-.main-container {
-  width: 600px;
-  margin: auto;
-}
-
 a {
   text-decoration: none;
 }
@@ -35,10 +31,19 @@ a {
   font-weight: 400;
 }
 
+h4 {
+  @include mobile {
+    font-size: 12px;
+  }
+}
+
 .container {
   width: 90%;
   margin: auto;
   padding-top: 40px;
+  @include mobile {
+    padding-top: 0;
+  }
 }
 
 .note-container {
@@ -53,26 +58,34 @@ a {
   position: relative;
   transition: 0.25s ease;
 
+  @include mobile {
+    width: 96%;
+  }
+
   .description-container {
     width: 100%;
     word-wrap: break-word;
   }
-  a {
-    width: max-content;
-    color: #000000;
-    margin-top: auto;
-    margin-left: auto;
-  }
+
   .note-title-container {
     display: flex;
     align-items: center;
     color: #000000;
+
+    h2 {
+      @include mobile {
+        font-size: 18px;
+      }
+    }
     .note-data {
       display: flex;
       margin-left: auto;
 
       h4 {
         margin-left: 20px;
+        @include mobile {
+          font-size: 14px;
+        }
       }
     }
   }

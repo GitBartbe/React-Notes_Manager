@@ -1,13 +1,19 @@
+@import '../../scss/brakepoints';
+
 .finish-time {
   display: flex;
   margin-left: auto;
   p {
     font-size: 14px;
   }
+
   h4 {
     margin-left: 20px;
     font-size: 14px;
     margin-bottom: 10px;
+    @include mobile {
+      font-size: 12px;
+    }
   }
 }
 
@@ -33,6 +39,10 @@
   .footer-note-link {
     display: flex;
     margin-left: auto;
+    @include mobile {
+      margin-top: auto;
+      font-size: 14px;
+    }
   }
   .footer-note-link-icon {
     margin-left: 10px;

@@ -17,7 +17,7 @@ import {
 } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: `${process.env.REACT_APP_API_KEY}`,
+  apiKey: 'AIzaSyCuQavjacCp0MoFFQC6kTq7CE-I9c0Ti6c',
   authDomain: 'notes-manager-ee39c.firebaseapp.com',
   projectId: 'notes-manager-ee39c',
   storageBucket: 'notes-manager-ee39c.appspot.com',
