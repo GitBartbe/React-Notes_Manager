@@ -1,0 +1,25 @@
+@import '../../scss/variables';
+
+.login-form {
+  max-width: 360px;
+  margin: 60px auto;
+  padding: 20px;
+
+  label {
+    display: block;
+    margin: 30px auto;
+  }
+  span {
+    display: block;
+    margin-bottom: 20px;
+  }
+  input {
+    padding: 8px 6px;
+    font-size: 1em;
+    color: #777;
+    border-radius: 15px;
+    border: 1px solid $primary-grey;
+    background: 0;
+    width: 100%;
+  }
+}

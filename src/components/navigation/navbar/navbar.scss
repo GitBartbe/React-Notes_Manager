@@ -1,0 +1,22 @@
+@import '../../../scss/variables';
+.navbar-container {
+  display: flex;
+
+  padding: 40px;
+  align-items: center;
+  a {
+    color: $primary-grey;
+    margin: 20px;
+    padding-top: 10px;
+    border-top: 2px solid transparent;
+    transition: 0.25s ease;
+  }
+  a:hover,
+  .active {
+    color: #ffffff;
+    border-color: #ffffff;
+  }
+  .navigation-login {
+    margin-left: auto;
+  }
+}

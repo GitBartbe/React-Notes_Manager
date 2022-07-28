@@ -1,0 +1,85 @@
+@import '../../scss/variables';
+.main {
+  display: flex;
+  position: relative;
+  height: 400px;
+  justify-content: center;
+
+  .add-note-container {
+    display: flex;
+
+    .add-note {
+      display: flex;
+      flex-direction: column;
+      width: min-content;
+
+      .start-button-container {
+        margin-bottom: 40px;
+      }
+
+      .input-container {
+        align-items: center;
+        label {
+          display: block;
+          margin-bottom: 10px;
+        }
+        input {
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    .note-display {
+      display: flex;
+      flex-direction: column;
+      width: 600px;
+      border: 1px solid $primary-grey;
+      border-radius: 8px;
+      word-wrap: break-word;
+      padding: 40px 40px 20px;
+
+      .note-display-header {
+        display: flex;
+        align-items: flex-end;
+        padding-bottom: 5px;
+
+        h3 {
+          margin-left: auto;
+        }
+      }
+
+      .decription-container p {
+        margin: 10px 0 0 10px;
+      }
+
+      .finish-work-container {
+        display: flex;
+        width: 100%;
+        padding-top: 10px;
+
+        margin-top: auto;
+        h3 {
+          margin-left: auto;
+        }
+      }
+    }
+
+    .right-side-container {
+      display: flex;
+      flex-direction: column;
+      height: 100%px;
+      .colors-container {
+        margin-left: 20px;
+      }
+
+      .save-button-container {
+        margin-top: auto;
+        margin-left: -6px;
+        padding-left: 40px;
+        padding-bottom: 10px;
+        min-width: 140px;
+        border-bottom: 1px solid $primary-grey;
+      }
+    }
+  }
+}

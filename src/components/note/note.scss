@@ -1,0 +1,19 @@
+@import '../../scss/variables';
+
+.note {
+  display: flex;
+  justify-content: center;
+  .edit-note-button {
+    margin-bottom: 20px;
+  }
+  .note-container {
+    position: relative;
+  }
+
+  .icons-container {
+    margin-left: 20px;
+    height: 260px;
+    padding-left: 10px;
+    border-left: 1px solid $primary-grey;
+  }
+}

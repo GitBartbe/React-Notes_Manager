@@ -1,0 +1,13 @@
+@import '../../scss/variables';
+
+.input-field {
+  width: 200px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  border: 0;
+  color: $primary-color;
+  border-bottom: 1px solid $primary-grey;
+  background-color: transparent;
+
+  color: $primary-grey;
+}

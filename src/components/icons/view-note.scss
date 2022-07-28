@@ -1,0 +1,15 @@
+@import '../../scss/variables';
+
+.view-note-icon-container {
+  width: 20px;
+  height: 20px;
+  margin-top: auto;
+
+  transition: 0.5s ease;
+  cursor: pointer;
+
+  .view-note-icon {
+    width: 100%;
+    height: 100%;
+  }
+}

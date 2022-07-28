@@ -1,0 +1,15 @@
+@import '../../scss/variables';
+
+.color {
+  width: 20px;
+  height: 20px;
+  border: 1px solid $primary-grey;
+  border-radius: 4px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.color:hover {
+  width: 25px;
+}
