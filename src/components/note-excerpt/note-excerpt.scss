@@ -39,8 +39,8 @@
   .footer-note-link {
     display: flex;
     margin-left: auto;
+    margin-top: auto;
     @include mobile {
-      margin-top: auto;
       font-size: 14px;
     }
   }
