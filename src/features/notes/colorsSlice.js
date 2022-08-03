@@ -8,6 +8,7 @@ const initialState = [
   { bg: '#ffe082', color: '#514214' },
   { bg: '#bf4080', color: '#ffd3fc' },
   { bg: '#42b883', color: '#ffffff' },
+  {bg: '#3178c6',color: '#ffffff' }
 ];
 
 const colorsSlice = createSlice({

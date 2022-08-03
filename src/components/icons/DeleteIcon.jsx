@@ -1,7 +1,7 @@
 import { ReactComponent as TrashIcon } from '../../images/trash.svg';
 import './delete-icon.scss';
 
-const DeleteIcon = ({ fill, id, handleDelete = (f) => f }) => {
+const DeleteIcon = ({ fill, handleDelete = (f) => f }) => {
   return (
     <div className='delete-icon-container'>
       <TrashIcon
