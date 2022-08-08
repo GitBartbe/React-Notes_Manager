@@ -3,7 +3,7 @@ import { format, parseISO } from "date-fns";
 const Time = ({ date = "2022-07-07T16:19:28.495Z", displayDate }) => {
   const parsedDate = parseISO(date);
 
-  const formatedDate = format(parsedDate, "dd.mm.yyyy");
+  const formatedDate = format(parsedDate, "dd.MM.yyyy");
   const formatHour = format(parsedDate, "hh:mm aa");
 
   return (
